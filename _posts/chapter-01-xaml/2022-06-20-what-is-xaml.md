@@ -1,8 +1,8 @@
 ---
-title: How to Get Started
-author: Tao He
+title: XAML Introduction
+author: Siddharth Singh
 date: 2022-06-20
-category: Jekyll
+category: xaml
 layout: post
 ---
 
@@ -22,7 +22,7 @@ A modern Application consists of multiple screens and often there is a definite 
 
 Often these components are in a parent-child relationship. For example, below is how a tweet is displayed. You can notice the outer tweet card has many children such as profile pic, username handle, and tweet text. These are arranged in a definite layout and retain this UI when the screen orientation is changed or the tweet is viewed on a desktop.
 
-![Tweet card](parent_child.jpg?raw=true "A Tweet Card UI")
+![Tweet card](CookbookCover.png?raw=true "A Tweet Card UI")
 
 
 XAML makes it easy to define the UI. It is often more readable.
