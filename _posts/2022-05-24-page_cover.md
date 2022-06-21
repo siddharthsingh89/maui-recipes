@@ -10,5 +10,5 @@ cover: /maui-recipes/CookbookCover.png
 
 
 # Details
-I created this initial Cover using Canva.com template. This has bookmarks and will be updated later.
+I created this initial Cover using Canva.com template. This has watermarks and will be updated later.
 
