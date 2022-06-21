@@ -12,13 +12,12 @@ layout: post
     Where they are used.
 
 
-# How to show an image in your MAUI App?
-
-## Showing image in the project
+# Showing image in the project
 ```
 <Image Source="dotnet_bot.png"/>
 ```
-## Adding a Description for accessiblity
+# Adding a Description for accessiblity
+
 ```
 <Image 
 Source="dotnet_bot.png"
@@ -26,7 +25,7 @@ SemanticProperties.Description="Cute dot net bot waving hi to you!"
 />
 ```
 
-## Fixing the height of the image
+# Fixing the height of the image
 ```
 <Image 
 Source="dotnet_bot.png"
@@ -34,7 +33,8 @@ HeightRequest="200"
 />
 ```
 
-## Fixing the Width of the image
+# Fixing the Width of the image
+
 ```
 <Image 
 Source="dotnet_bot.png"
@@ -42,11 +42,8 @@ WidthRequest="200"
 />
 ```
 
+# How to load a image from the web in your maui App?
 
-
-
-
-## How to load a image from the web in your maui App?
 ```
 <Image
     Source="https://picsum.photos/200"               
@@ -54,19 +51,19 @@ WidthRequest="200"
     HorizontalOptions="Center"
     />
 ```
+
 # How to add an image to the MAUI project?
-You can add a image by simply dragging it to the /Resources/Images' folder in your MAUI project. 
+You can add a image by simply dragging it to the */Resources/Images* folder in your MAUI project. 
 
 Build action has to be set to MauiImage.
 Or you can copy and paste it to Visual studio.
-<add some screenshots>
-
 There is splash screen, icon and image types in the build action.
 
 
 # How to show a rounded image in .NET MAUI?
 We need to show clip the bounds.
-## Using the Frame,  IsClippedToBounds="True" and Negative Margin
+
+**Using the Frame,  IsClippedToBounds="True" and Negative Margin**
 
 ```
 <Frame Margin="10"
@@ -86,7 +83,7 @@ We need to show clip the bounds.
 ```
 
 
-## Using the Image.Clip
+**Using the Image.Clip**
 
 ```
  <Image  HorizontalOptions="Center"
@@ -130,6 +127,7 @@ We need to show clip the bounds.
     }
 ```
 
+
 ```
 namespace Images;
 public partial class MainPage : ContentPage
@@ -155,6 +153,7 @@ public partial class MainPage : ContentPage
 
 ```
 
+
 ```
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -178,8 +177,9 @@ public partial class MainPage : ContentPage
 
 
 # How to display full screen images?
+
 # How to show a image in a button in .net MAUI?
-Approach 1: Using the Image button 
+**Approach 1: Using the Image button **
 
 ```
     <ImageButton Source="dotnet_bot.png"
@@ -191,7 +191,7 @@ Approach 1: Using the Image button
                     VerticalOptions="Center" />
 ```
 
-Approach 2: Using the Image source property in the Button 
+**Approach 2: Using the Image source property in the Button **
 ```
  <Button ImageSource="dotnet_bot.png"                
                  BackgroundColor="Beige"
@@ -204,6 +204,7 @@ Approach 2: Using the Image source property in the Button
 
 
 # How to make a image clickable in .NET MAUI?
+
 ```
     <Image x:Name="myImage" Source="dotnet_bot.png"                
                  BackgroundColor="Beige"
@@ -237,18 +238,31 @@ public partial class MainPage : ContentPage
 ```
 
 # How to load a GIF in your .NET MAUI App?
+
 # How to save an image in .NET MAUI?
+
 # How to apply a filter to image in .NET MAUI?
+
 # How to change image transparency in .NET MAUI ?
+
 # How to load image from a stream ?
+
 # How to load an embedded image?
+
 # How to display iamges with a shadow ?
+
 # How to display image with a border?
+
 # How to overlap an image over another control?
+
 # How to add text over an image ?
+
 # How to make an image grayscale ?
 
 # How to share an image in .NET MAUI?
+
 # How to cache an image?
+
 # How to resize an image?
+
 # How to downsize an image?
