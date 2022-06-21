@@ -1,15 +1,15 @@
 # Configurations
-title:            The MAUI Book
+title:            The .NET MAUI Cookbook
 longtitle:        Collection of essential concepts and recipes for .NET MAUI developers
 author:           Siddharth Singh
 email:            sid.knmiet.it@gmail.com
 description: >
-  Ebook to create production ready apps using.NET MAUI
+  Cookbook to help developers create production-ready apps using.NET MAUI
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://themauibook.github.io'
+url:              'https://siddharthsingh89.github.io'
 baseurl:          '/maui-recipes'
 rss:              RSS
 
