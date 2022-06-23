@@ -12,7 +12,7 @@ layout: post
     Where they are used.
 
 
-# Showing image in the project
+## Showing image in the project
 ```
 <Image Source="dotnet_bot.png"/>
 ```
@@ -42,7 +42,7 @@ WidthRequest="200"
 />
 ```
 
-# How to load a image from the web in your maui App?
+## How to load a image from the web in your maui App?
 
 ```
 <Image
@@ -52,7 +52,7 @@ WidthRequest="200"
     />
 ```
 
-# How to add an image to the MAUI project?
+## How to add an image to the MAUI project?
 You can add a image by simply dragging it to the */Resources/Images* folder in your MAUI project. 
 
 Build action has to be set to MauiImage.
@@ -60,7 +60,7 @@ Or you can copy and paste it to Visual studio.
 There is splash screen, icon and image types in the build action.
 
 
-# How to show a rounded image in .NET MAUI?
+## How to show a rounded image in .NET MAUI?
 We need to show clip the bounds.
 
 **Using the Frame,  IsClippedToBounds="True" and Negative Margin**
@@ -176,9 +176,9 @@ public partial class MainPage : ContentPage
 
 
 
-# How to display full screen images?
+## How to display full screen images?
 
-# How to show a image in a button in .net MAUI?
+## How to show a image in a button in .net MAUI?
 **Approach 1: Using the Image button **
 
 ```
@@ -203,7 +203,7 @@ public partial class MainPage : ContentPage
 
 
 
-# How to make a image clickable in .NET MAUI?
+## How to make a image clickable in .NET MAUI?
 
 ```
     <Image x:Name="myImage" Source="dotnet_bot.png"                
@@ -237,32 +237,32 @@ public partial class MainPage : ContentPage
 
 ```
 
-# How to load a GIF in your .NET MAUI App?
+## How to load a GIF in your .NET MAUI App?
 
-# How to save an image in .NET MAUI?
+## How to save an image in .NET MAUI?
 
-# How to apply a filter to image in .NET MAUI?
+## How to apply a filter to image in .NET MAUI?
 
-# How to change image transparency in .NET MAUI ?
+## How to change image transparency in .NET MAUI ?
 
-# How to load image from a stream ?
+## How to load image from a stream ?
 
-# How to load an embedded image?
+## How to load an embedded image?
 
-# How to display iamges with a shadow ?
+## How to display iamges with a shadow ?
 
-# How to display image with a border?
+## How to display image with a border?
 
-# How to overlap an image over another control?
+## How to overlap an image over another control?
 
-# How to add text over an image ?
+## How to add text over an image ?
 
-# How to make an image grayscale ?
+## How to make an image grayscale ?
 
-# How to share an image in .NET MAUI?
+## How to share an image in .NET MAUI?
 
-# How to cache an image?
+## How to cache an image?
 
-# How to resize an image?
+## How to resize an image?
 
-# How to downsize an image?
+## How to downsize an image?
