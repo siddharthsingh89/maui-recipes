@@ -7,16 +7,28 @@ layout: post
 ---
 
 ## Images in .NET MAUI
-    Importance of images in App.
-    How image are represented.
-    Where they are used.
+Images are very important. Open any App and you can see images everywhere- be it splash screens, icons, profile pics, cover pics, post cards, articles etc. As an app developer, you will be frequently working with images and must learn to handle images efficiently. Below is a collection of some important Image handling Recipes-
+
+**Important things to know about Image Handling in .NET MAUI**
+* You only need to inclde your images at one place in the MAUI project. While building, the framework will resize them to correct resolutions for each platform and added to the output app package.
+* Your image filenames must be lowercase, start and end with a letter character, and contain only alphanumeric characters or underscores. This is required to comply with Android resource naming convention.
+* .NET MAUI images can use any of the standard platform image formats, including Scalable Vector Graphics (SVG) files, JPGs, PNGs, Bitmaps etc.MAUI also supports GIFs.
+* .NET MAUI converts SVG files to PNG files. Therefore, when adding an SVG file to your .NET MAUI app project, it should be referenced from XAML or C# with a .png extension.
 
 
 ## Showing image in the project
+* Below code shows Shows an image from a local file source.
+* The image will shown at full resolution unless it is restrained by layout constraint or height and width requests.
+
 ```
 <Image Source="dotnet_bot.png"/>
 ```
+
 # Adding a Description for accessiblity
+**Accessibilty**
+
+Accessibility is very important and should be kept in mind from the start. ```SemanticProperties``` class provides support for accessibilty in MAUI Apps.
+* ```SemanticProperties```  has ```Description```, ```Hint``` and ```HeadingLevel``` properties.
 
 ```
 <Image 
@@ -24,6 +36,12 @@ Source="dotnet_bot.png"
 SemanticProperties.Description="Cute dot net bot waving hi to you!"
 />
 ```
+
+Let's see how does this work in Win10.
+* Enable Accessiblit Mode.
+* Create the App.
+* Read it aloud.
+
 
 # Fixing the height of the image
 ```
