@@ -44,6 +44,8 @@ Let's see how does this work in Win10.
 
 
 # Fixing the height of the image
+By default, Images will be displayed at full resolution.
+You can set the height of your image using ``` HeightRequest``` property. 
 ```
 <Image 
 Source="dotnet_bot.png"
@@ -60,7 +62,11 @@ WidthRequest="200"
 />
 ```
 
-## How to load a image from the web in your maui App?
+## How to load an image from the Url in your maui App?
+Images in MAUI can be loaded from various sources such as Local File, Url, Stream etc.
+To load from Url, just provide the Url in the Source property. Maui will download the file and display in the UI.
+
+
 
 ```
 <Image
@@ -70,13 +76,15 @@ WidthRequest="200"
     />
 ```
 
+**Behind the Scene**
+1. Image Control takes the Source property value and checks if its a filepath, absolute Url or relative url.
+2. The UrlImageSource object internally dowloads the file and returns to the Image control.
+
 ## How to add an image to the MAUI project?
 You can add a image by simply dragging it to the */Resources/Images* folder in your MAUI project. 
 
-Build action has to be set to MauiImage.
-Or you can copy and paste it to Visual studio.
-There is splash screen, icon and image types in the build action.
-
+* Build action has to be set to MauiImage.
+* You can copy and paste it to Visual studio.
 
 ## How to show a rounded image in .NET MAUI?
 We need to show clip the bounds.
