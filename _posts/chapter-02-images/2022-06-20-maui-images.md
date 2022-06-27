@@ -264,6 +264,11 @@ public partial class MainPage : ContentPage
 ```
 
 ## How to load a GIF in your .NET MAUI App?
+* .NET MAUI includes supports for GIF files. You can use them like normal images.
+* By default, when a GIF is loaded, it will not be played. You need to set the  ```IsAnimationPlaying property``` on the control to ```true```.
+
+![Playing with GIF in MAUI](https://github.com/siddharthsingh89/maui-recipes/blob/main/_posts/chapter-02-images/media/final_image_gif1.gif?raw=true)
+
 
 ## How to save an image in .NET MAUI?
 
