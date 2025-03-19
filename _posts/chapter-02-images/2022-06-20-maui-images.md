@@ -268,32 +268,3 @@ public partial class MainPage : ContentPage
 * By default, when a GIF is loaded, it will not be played. You need to set the  ```IsAnimationPlaying property``` on the control to ```true```.
 
 ![Playing with GIF in MAUI](https://github.com/siddharthsingh89/maui-recipes/blob/main/_posts/chapter-02-images/media/final_image_gif1.gif?raw=true)
-
-
-## How to save an image in .NET MAUI?
-
-## How to apply a filter to image in .NET MAUI?
-
-## How to change image transparency in .NET MAUI ?
-
-## How to load image from a stream ?
-
-## How to load an embedded image?
-
-## How to display iamges with a shadow ?
-
-## How to display image with a border?
-
-## How to overlap an image over another control?
-
-## How to add text over an image ?
-
-## How to make an image grayscale ?
-
-## How to share an image in .NET MAUI?
-
-## How to cache an image?
-
-## How to resize an image?
-
-## How to downsize an image?
